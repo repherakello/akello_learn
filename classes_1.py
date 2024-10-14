@@ -7,7 +7,7 @@ class circle:
         return 2 * self.radius * math.pi
     
     def getArea(self):
-        return 2 *math.pi ** self.radius
+        return 2 *math.pi * self.radius* self.radius
     
     def setRdius(self,radius):
         self.radius = radius
